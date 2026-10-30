@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+<main>
+
+    <a href="https://uninassau.edu.br" target="_blank">Uninassau</a>
+
+    <header>
+    <h3>Sobre mim:</h3>
+    <h3><strong>Douglas Miqueias Souza Valentim</strong></h3>
+    <h3>28 anos</h3>
+    <img src="perfil.jpeg" alt="Minha Foto" width="200">
+    </header>
+
+    <p>
+        Estudo<strong> Desenvolvimento de Aplicação para Internet</strong>
+        e estou <em>aprendendo HTML5 na prática</em>.
+
+    </p>
+    <hr>
+    <h3 id="Contato">Contato</h3>
+    <p>
+        <a href="mailto:sdmiqueias@gmail.com">Enviar e-mail.</a>
+        <a href="https://github.com/douglasvalentim" target="_blank">GitHub</a>
+    </p>
+    
+    <h3>Habilidades</h3>
+    <ul>
+        <li>Front-End
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>    
+            <li>Back-End
+            <ul>
+                <li>SQLite</li>
+            </ul>   
+            </li>    
+    </ul>
+
+    <h3>Passo a passo</h3>
+    <ol>
+        <li>Planejar</li>
+        <li>Codificar</li>
+        <li>Publicar</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr><th>Curso</th><th>Instituição</th><th>Ano</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Análise e Desenvolvimento de Sistemas</td><td>Uninassau</td><td>2026</td></tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="senha" required>
+    
+        <br><br>
+
+        <label for="assunto">Assunto</label>
+        <select id="assunto">
+            <option>Proposta de Trabalho</option>
+            <option>Dúvida</option>
+        </select>
+        <br><br>
+        <label for="msg">Mensagem</label>
+        
+        <textarea id="msg" required></textarea>
+        <button type="submit" aria-required="true">Enviar</button>
+
+    </form>
+
+    <br><br>
+
+    <audio controls>
+        <source src="04.mp3" type="audio/mpeg">
+
+    </audio>
+</main>
+</body>
+</html>
